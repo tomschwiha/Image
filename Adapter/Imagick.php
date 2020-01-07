@@ -4,7 +4,7 @@ namespace Gregwar\Image\Adapter;
 
 use Gregwar\Image\Image;
 
-class Imagick extends Common
+abstract class Imagick extends Common
 {
     public function __construct()
     {
